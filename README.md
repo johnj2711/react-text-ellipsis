@@ -40,6 +40,12 @@ The text to display when the content is expanded. Defaults to an empty string.
 
 ## react version text-ellipsis
 
+````
+    import TextEllipsis from 'react-text-ellipsis-tool'
+    // exiting code
+    <TextEllipsis ref={scrollContainer} onClickAction={handleClickAction} content={text} />
+````
+
 ## like vue3-vant4 van-text-ellipsis
 
 ## Usage
