@@ -1,6 +1,6 @@
 {
   "name": "react-text-ellipsis-tool",
-  "version": "1.0.15",
+  "version": "1.0.16",
   "description": "react-text-ellipsis",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
