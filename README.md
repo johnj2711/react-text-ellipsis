@@ -34,6 +34,10 @@ The text to display when the content is collapsed. Defaults to `'More'`.
 ### `collapseText` (string, optional)
 The text to display when the content is expanded. Defaults to an empty string.
 
+## example
+![alt text](image.png)
+![alt text](image-1.png)
+
 ## react version text-ellipsis
 
 ## like vue3-vant4 van-text-ellipsis
