@@ -1,0 +1,41 @@
+{
+  "name": "react-text-ellipsis-tool",
+  "version": "1.0.8",
+  "description": "react-text-ellipsis",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "private": false,
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^28.0.2",
+    "@rollup/plugin-node-resolve": "^16.0.0",
+    "@rollup/plugin-typescript": "^12.1.2",
+    "@types/react": "^19.0.8",
+    "@types/react-dom": "^19.0.3",
+    "rollup": "^4.34.6",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "typescript": "^5.7.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "text",
+    "react",
+    "css",
+    "next.js",
+    "ellipsis"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/react-text-ellipsis-tool.git"
+  }
+}
