@@ -14,6 +14,26 @@
 
 To install the component, use npm or yarn:
 
+## Props
+
+### `content` (string)
+The text content to be displayed. This is a required prop.
+
+### `onClickAction` (function)
+A callback function that is triggered when the action text (e.g., "More" or "Less") is clicked. It receives a `MouseEvent` as an argument.
+
+### `rows` (number, optional)
+The number of rows to display before truncating the text. Defaults to `2`.
+
+### `dots` (string, optional)
+The string to display at the end of truncated text. Defaults to `'...'`.
+
+### `expandText` (string, optional)
+The text to display when the content is collapsed. Defaults to `'More'`.
+
+### `collapseText` (string, optional)
+The text to display when the content is expanded. Defaults to an empty string.
+
 ## react version text-ellipsis
 
 ## like vue3-vant4 van-text-ellipsis
