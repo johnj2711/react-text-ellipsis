@@ -1,6 +1,6 @@
 {
   "name": "react-text-ellipsis-tool",
-  "version": "1.0.17",
+  "version": "1.0.18",
   "description": "react-text-ellipsis tool , react version , button click event",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
