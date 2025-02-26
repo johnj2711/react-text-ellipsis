@@ -28,11 +28,11 @@ The number of rows to display before truncating the text. Defaults to `2`.
 ### `dots` (string, optional)
 The string to display at the end of truncated text. Defaults to `'...'`.
 
-### `expandText` (string, optional)
-The text to display when the content is collapsed. Defaults to `'More'`.
+### `expandText` (string, optional, required)
+The text to display when the content is collapsed. Defaults to `'More'`. split by rows.
 
-### `collapseText` (string, optional)
-The text to display when the content is expanded. Defaults to an empty string.
+### `collapseText` (string, optional, no required)
+The text to display when the content is expanded. Defaults to an empty string. no required, if no, show all expandText
 
 ## example
 ![alt text](image.png)
@@ -96,9 +96,9 @@ This project is licensed under the MIT License.
 在截断文本末尾显示的字符串。默认为 `'...'`。
 
 ### `expandText` (string, optional)
-当内容被折叠时显示的文本。默认为 `'更多'`。
+当内容被折叠时显示的文本。默认为 `'更多'`。会根据rows截取。
 
-### `collapseText` (string, optional)
-当内容被展开时显示的文本。默认为空字符串。
+### `collapseText` (string, optional, 不是必填)
+当内容被展开时显示的文本。默认为空字符串。如果未填，展开就是expandText。
 
 
